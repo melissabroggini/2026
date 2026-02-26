@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Esempio Animazione</title>
+    <style>
+        /* Questo è il vestito del nostro quadrato */
+        #quadrato {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+            left: 0px;
+            top: 100px;
+            cursor: pointer;
+            transition: left 0.5s; /* Rende il movimento fluido */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Clicca sul quadrato!</h1>
+    
+    <div id="quadrato" onclick="muovi()"></div>
+
+    <script>
+        // Questa è la logica che lo fa muovere
+        let posizione = 0;
+
+        function muovi() {
+            posizione += 50; // Aggiunge 50 pixel ogni volta
+            document.getElementById("quadrato").style.left = posizione + "px";
+        }
+    </script>
+
+</body>
+</html>
