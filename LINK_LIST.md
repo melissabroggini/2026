@@ -149,6 +149,12 @@ https://www.space-track.org/
 Feed di elementi orbitali per satelliti, inclusa la ISS.\
 https://celestrak.org/
 
+Posizione realtime ISS.\
+https://open-notify.org/Open-Notify-API/ISS-Location-Now
+
+N2YO\
+https://www.n2yo.com/
+
 ------------------------------------------------------------------------
 
 ## Archivi Dati Scientifici e Missioni
