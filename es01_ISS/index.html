@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES01 - ISS</title>
+</head>
+<body>
+    ciao a tutti
+    <scrypt>
+        const API_URL="http://api.open-notify.org/astros.json"
+
+        fetch (API_URL)
+        .then (r=> r.json())
+        .then (data => {
+            const n = data.number
+            <document.body.innerHTML += `<h1>Ci sono ${n} persone nello spazio</h1>`>
+                data.people.forEach( a =>)
+                document.body.innerHTML += `<p>${a.name} è a bordo della ${a.craft}</p>`
+        )
+    </scrypt>
+</body>
+</html>
